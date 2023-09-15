@@ -3,7 +3,7 @@ body{
 }
 
 .slider{
-   padding: 3em;
+   padding: 2em;
    margin: 2em auto 0;
    overflow: hidden;
    max-width: 60em;
@@ -11,7 +11,7 @@ body{
    height: 30em;
    display: flex;
    flex-direction: column-reverse;
-   border: 2px solid #7f0fe7af;
+   border: 0.3em solid #7f0fe7af;
    border-radius: 1em;
    color: #ffffff;
 }
@@ -45,8 +45,8 @@ body{
    min-width: 100%;
    font-family: 'Courier New', Courier, monospace;
    font-weight: 600;
-   font-size: 20px;
-   letter-spacing: 2px;
+   font-size: 1em;
+   letter-spacing: 0.2em;
    pointer-events: none;
 }
 
@@ -58,8 +58,8 @@ body{
    justify-content: center;
    align-items: center; 
    margin-bottom: 3em;
-   border: 2px solid gray;
-   border-radius: 10px;
+   border: 0.1em solid gray;
+   border-radius: 0.8em;
    overflow: hidden;
    background-color: #ffffff;
    pointer-events: none;
@@ -69,7 +69,7 @@ body{
 .slider__pagination{
    display: flex;
    justify-content: flex-end;
-   column-gap: 10px;
+   column-gap: 0.8em;
    
 }
 
@@ -136,11 +136,11 @@ body{
 
 .fake-btn{
    display:block;
-   width: 15px;
-   height: 15px;
+   width: 1em;
+   height: 1em;
    border-radius: 50%;
    background-color: #ffffff;
-   border: 3px solid #7f0fe7af;
+   border: 0.3em solid #7f0fe7af;
    transition: background-color 0.5s, border-color 0.5s, opacity 0.5s;
    cursor: pointer;
 }
@@ -152,8 +152,8 @@ body{
 .real-btn{
    opacity: 0;
    visibility: hidden;
-   width: 0px;
-   height: 0px;
+   width: 0;
+   height: 0;
    display: block;
    background: transparent;
    font-size: 0;
