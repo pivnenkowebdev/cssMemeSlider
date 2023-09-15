@@ -132,6 +132,41 @@ body{
    transform: translateX(calc(-300% - 8em));
 }
 
+/* fake-buttons */
+
+.fake-btn{
+   display:block;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background-color: #ffffff;
+   border: 3px solid #7f0fe7af;
+   transition: background-color 0.5s, border-color 0.5s, opacity 0.5s;
+   cursor: pointer;
+}
+
+.fake-btn:hover{
+   opacity: 0.5;
+}
+
+.real-btn{
+   opacity: 0;
+   visibility: hidden;
+   width: 0px;
+   height: 0px;
+   display: block;
+   background: transparent;
+   font-size: 0;
+}
+
+.real-btn:checked + .fake-btn{
+   background-color: #7f0fe7af;
+   border-color: #ffffff;
+   cursor: default;
+}
+
+
+
 
 /* adaptive */
 
