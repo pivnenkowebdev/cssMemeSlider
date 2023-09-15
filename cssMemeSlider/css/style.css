@@ -129,7 +129,7 @@ body{
 }
 
 .slider__pagination:has(.fourth-btn:checked) + .slider__hidden-wrapper .slider__row-titles{
-   transform: translateX(calc(-300% - 7em));
+   transform: translateX(calc(-300% - 8em));
 }
 
 
