@@ -149,6 +149,11 @@ body{
    opacity: 0.5;
 }
 
+.fake-btn:active{
+   opacity: 1;
+   transition: opacity 0;
+}
+
 .real-btn{
    opacity: 0;
    visibility: hidden;
